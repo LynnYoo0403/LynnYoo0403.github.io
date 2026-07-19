@@ -4,21 +4,3 @@
 
 {% include comments-providers/scripts.html %}
 
-<script src="/assets/js/cellular-automata.js"></script>
-canvas.addEventListener(
-"click",
-function(event){
-
-
-let x=
-Math.floor(event.offsetX/size);
-
-let y=
-Math.floor(event.offsetY/size);
-
-
-grid[y][x]=1;
-
-
-}
-);
