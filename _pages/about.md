@@ -1,6 +1,3 @@
----
-layout: splash
----
 
 ---
 permalink: /
